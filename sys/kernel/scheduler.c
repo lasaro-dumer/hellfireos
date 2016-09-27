@@ -2,16 +2,16 @@
  * @file scheduler.c
  * @author Sergio Johann Filho
  * @date February 2016
- * 
+ *
  * @section LICENSE
  *
  * This source code is licensed under the GNU General Public License,
  * Version 2.  See the file 'doc/license/gpl-2.0.txt' for more details.
- * 
+ *
  * @section DESCRIPTION
- * 
+ *
  * Kernel two-level scheduler and task queue management.
- * 
+ *
  */
 
 #include <hal.h>
@@ -45,13 +45,13 @@ static void process_delay_queue(void)
 
 /**
  * @brief The task dispatcher.
- * 
+ *
  * The job of the dispatcher is simple: save the current task context on the TCB,
  * update its state to ready and check its stack for overflow. If there are
  * tasks to be scheduled, process the delay queue and invoke the real-time scheduler.
  * If no RT tasks are ready to be scheduled, invoke the best effort scheduler.
  * Update the scheduled task state to running and restore the context of the task.
- * 
+ *
  * Delayed tasks are in the delay queue, and are processed in the following way:
  *	- The number of elements (tasks) in queue is counted;
  *	- The a task from the head of the queue is removed and its delay is decremented;
@@ -96,9 +96,9 @@ void dispatch_isr(void *arg)
 
 /**
  * @brief Best effort (BE) scheduler.
- * 
+ *
  * @return Best effort task id.
- * 
+ *
  * The algorithm is Lottery Scheduling.
  * 	- Take a task from the run queue, copy its entry and put it back at the tail of the run queue.
  * 	- If the task is in the blocked state (it may be simply blocked or waiting in a semaphore) or
@@ -112,7 +112,7 @@ void dispatch_isr(void *arg)
 int32_t sched_be(void)
 {
 	int32_t r, i = 0;
-	
+
 	r = random() % krnl_tasks;
 	if (hf_queue_count(krnl_run_queue) == 0)
 		panic(PANIC_NO_TASKS_RUN);
@@ -131,23 +131,33 @@ static void sort_rt_queue(void)
 {
 	int32_t i, j, cnt;
 	struct tcb_entry *e1, *e2;
-	
+
 	cnt = hf_queue_count(krnl_rt_queue);
 	for (i = 0; i < cnt-1; i++){
 		for (j = i + 1; j < cnt; j++){
 			e1 = hf_queue_get(krnl_rt_queue, i);
 			e2 = hf_queue_get(krnl_rt_queue, j);
-			if (e1->period > e2->period)
+			if ((e1->deadline_rem-e1->capacity_rem) > (e2->deadline_rem-e2->capacity_rem)){
 				if (hf_queue_swap(krnl_rt_queue, i, j)) panic(PANIC_CANT_SWAP);
+			}
 		}
 	}
+#if KERNEL_LOG >= 100
+	dprintf("\n<<<<<");
+	int k;
+	for (k=0; k<cnt;k++){
+		e1 = hf_queue_get(krnl_rt_queue,k);
+		dprintf("\nperiod: %d deadline: %d deadline_rem: %d\n",e1->period,e1->deadline,e1->deadline_rem );
+	}
+	dprintf("\n>>>>>>");
+#endif
 }
 
 /**
  * @brief Real time (RT) scheduler.
- * 
+ *
  * @return Real time task id.
- * 
+ *
  * The scheduling algorithm is Rate Monotonic.
  * 	- Sort the queue of RT tasks by period;
  * 	- Update real time information (remaining deadline and capacity) of the
@@ -160,11 +170,11 @@ int32_t sched_rt(void)
 {
 	int32_t i, k;
 	uint16_t id = 0;
-	
+
 	k = hf_queue_count(krnl_rt_queue);
 	if (k == 0)
 		return 0;
-		
+
 	sort_rt_queue();
 
 	for (i = 0; i < k; i++){
@@ -178,7 +188,7 @@ int32_t sched_rt(void)
 				krnl_task->rtjobs++;
 		}
 		if (--krnl_task->deadline_rem == 0){
-			krnl_task->deadline_rem = krnl_task->period;
+			krnl_task->deadline_rem = krnl_task->deadline;
 			if (krnl_task->capacity_rem > 0) krnl_task->deadline_misses++;
 			krnl_task->capacity_rem = krnl_task->capacity;
 		}

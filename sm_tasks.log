@@ -1,0 +1,7560 @@
+hf_schedlock() 25233 hf_spawn() 25995 hf_spawn() 26265 hf_spawn() 26524 hf_spawn() 26785 hf_spawn() 27047 hf_spawn() 27310 irq8 27697 dispatch 27826 hf_schedlock() 28021 irq4 28838 dispatch 28966 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 29448 hf_selfname() 29597 hf_selfid() 29728 irq8 31459 dispatch 31589 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 32073 irq4 34081 dispatch 34210 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 34699 hf_selfname() 34849 hf_selfid() 34980 irq8 36702 dispatch 36834 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 37317 irq4 39324 dispatch 39455 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 39944 irq8 41945 dispatch 42078 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 42579 irq4 44566 dispatch 44699 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 45221 hf_selfname() 45374 hf_selfid() 45508 irq8 47188 dispatch 47322 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 47828 hf_selfname() 47982 hf_selfid() 48117 irq4 49809 dispatch 49942 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 50448 irq8 52431 dispatch 52565 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 53068 irq4 55052 dispatch 55186 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 55679 irq8 57674 dispatch 57808 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 58295 irq4 60295 dispatch 60430 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 60941 irq8 62917 dispatch 63052 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 63545 irq4 65538 dispatch 65673 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 66179 irq8 68159 dispatch 68295 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 68794 irq4 70781 dispatch 70917 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 71425 irq8 73402 dispatch 73539 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 74030 irq4 76024 dispatch 76160 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 76672 irq8 78645 dispatch 78781 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 79271 irq4 81267 dispatch 81404 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 81905 irq8 83888 dispatch 84026 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 84530 irq4 86509 dispatch 86648 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 87138 irq8 89131 dispatch 89270 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 89773 irq4 91752 dispatch 91891 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 92409 irq8 94374 dispatch 94513 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 95015 irq4 96995 dispatch 97134 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+5 3 1 9 97632 hf_selfname() 97790 hf_selfid() 97930 irq8 99617 dispatch 99755 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 100267 irq4 102238 dispatch 102382 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 102893 irq8 104860 dispatch 105003 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 105504 irq4 107481 dispatch 107625 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 108135 irq8 110102 dispatch 110247 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 110746 irq4 112724 dispatch 112868 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 113385 irq8 115345 dispatch 115490 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 115987 irq4 117967 dispatch 118112 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 118621 irq8 120588 dispatch 120733 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 121252 irq4 123210 dispatch 123354 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 123876 irq8 125831 dispatch 125976 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 126487 irq4 128453 dispatch 128598 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 129102 irq8 131074 dispatch 131219 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 131717 irq4 133695 dispatch 133841 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 134368 irq8 136317 dispatch 136463 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 136963 irq4 138938 dispatch 139084 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 139608 irq8 141560 dispatch 141706 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 142213 irq4 144181 dispatch 144326 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 144826 irq8 146803 dispatch 146949 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 147472 irq4 149424 dispatch 149570 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 150069 irq8 152045 dispatch 152192 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 152696 irq4 154667 dispatch 154813 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 155342 irq8 157288 dispatch 157434 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 157949 irq4 159910 dispatch 160057 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 160560 irq8 162531 dispatch 162679 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 163180 irq4 165153 dispatch 165300 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 165805 irq8 167774 dispatch 167922 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+>>>>>>
+1 5 3 5 168425 irq4 170396 dispatch 170544 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 171064 irq8 173017 dispatch 173165 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 173677 irq4 175638 dispatch 175787 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 176309 irq8 178260 dispatch 178408 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 178915 irq4 180881 dispatch 181029 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 181531 irq8 183503 dispatch 183652 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 184161 irq4 186124 dispatch 186272 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 186793 irq8 188746 dispatch 188895 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 189397 irq4 191367 dispatch 191516 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 192034 irq8 193989 dispatch 194137 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 194660 irq4 196610 dispatch 196758 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 197274 irq8 199231 dispatch 199381 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 199888 irq4 201853 dispatch 202002 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 202513 irq8 204474 dispatch 204624 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 205128 irq4 207096 dispatch 207245 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 207763 irq8 209717 dispatch 209867 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+3 3 2 7 210371 irq4 212339 dispatch 212490 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 213027 irq8 214960 dispatch 215111 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 215617 irq4 217582 dispatch 217733 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 218261 irq8 220203 dispatch 220354 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 220859 irq4 222824 dispatch 222975 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 223489 irq8 225446 dispatch 225596 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 226111 irq4 228067 dispatch 228218 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 228728 irq8 230689 dispatch 230839 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 231363 irq4 233310 dispatch 233462 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 233981 irq8 235932 dispatch 236083 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 236589 irq4 238553 dispatch 238705 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+5 3 1 9 239239 irq8 241174 dispatch 241326 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 241850 irq4 243796 dispatch 243947 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 244452 irq8 246417 dispatch 246567 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 247082 irq4 249039 dispatch 249190 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 249711 irq8 251660 dispatch 251812 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 252322 irq4 254282 dispatch 254433 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 254939 irq8 256903 dispatch 257055 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+1 5 3 5 257570 irq4 259525 dispatch 259676 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 260197 irq8 262146 dispatch 262297 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 262803 irq4 264767 dispatch 264919 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 265445 irq8 267389 dispatch 267541 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 268060 irq4 270010 dispatch 270163 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 270669 irq8 272632 dispatch 272784 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 273294 irq4 275253 dispatch 275405 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 275911 irq8 277875 dispatch 278027 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 278548 irq4 280496 dispatch 280648 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 281186 irq8 283118 dispatch 283271 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 283777 irq4 285739 dispatch 285892 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 286417 irq8 288360 dispatch 288512 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 289046 irq4 290982 dispatch 291134 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 291646 irq8 293603 dispatch 293756 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 294263 irq4 296225 dispatch 296377 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 296897 irq8 298846 dispatch 298999 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 299511 irq4 301468 dispatch 301620 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 302146 irq8 304089 dispatch 304242 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 304770 irq4 306710 dispatch 306864 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 307371 irq8 309332 dispatch 309484 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 309991 irq4 311953 dispatch 312107 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 312636 irq8 314575 dispatch 314728 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 315236 irq4 317196 dispatch 317350 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 317872 irq8 319818 dispatch 319971 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 320489 irq4 322439 dispatch 322593 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 323132 irq8 325061 dispatch 325215 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 325723 irq4 327682 dispatch 327834 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 328351 irq8 330303 dispatch 330458 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+5 3 1 9 330970 irq4 332925 dispatch 333079 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 333587 irq8 335546 dispatch 335701 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 336239 irq4 338168 dispatch 338322 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 338834 irq8 340789 dispatch 340944 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 341467 irq4 343411 dispatch 343566 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 344089 irq8 346032 dispatch 346187 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 346695 irq4 348653 dispatch 348808 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 349320 irq8 351275 dispatch 351431 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 351940 irq4 353896 dispatch 354051 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 354569 irq8 356518 dispatch 356673 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 357202 irq4 359139 dispatch 359294 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 359836 irq8 361761 dispatch 361915 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+4 3 2 8 362424 irq4 364382 dispatch 364538 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 365061 irq8 367004 dispatch 367159 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 367669 irq4 369625 dispatch 369779 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 370309 irq8 372246 dispatch 372401 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 372910 irq4 374868 dispatch 375023 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 375552 irq8 377489 dispatch 377645 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 378172 irq4 380111 dispatch 380267 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 380776 irq8 382732 dispatch 382888 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 383416 irq4 385354 dispatch 385508 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 386040 irq8 387975 dispatch 388131 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 388640 irq4 390597 dispatch 390752 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 391270 irq8 393218 dispatch 393372 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 393881 irq4 395839 dispatch 395995 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 396524 irq8 398461 dispatch 398616 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 399125 irq4 401082 dispatch 401237 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 401760 irq8 403704 dispatch 403859 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 404373 irq4 406325 dispatch 406481 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 407013 irq8 408947 dispatch 409103 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 409618 irq4 411568 dispatch 411724 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 412235 irq8 414189 dispatch 414347 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 414872 irq4 416811 dispatch 416967 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 417482 irq8 419432 dispatch 419590 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 420101 irq4 422054 dispatch 422211 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 422746 irq8 424675 dispatch 424833 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 425344 irq4 427297 dispatch 427453 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 427984 irq8 429918 dispatch 430077 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 430603 irq4 432540 dispatch 432697 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 433222 irq8 435161 dispatch 435320 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 435835 irq4 437782 dispatch 437939 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 438461 irq8 440404 dispatch 440560 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 441071 irq4 443025 dispatch 443182 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 443699 irq8 445647 dispatch 445804 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+4 3 2 8 446316 irq4 448268 dispatch 448425 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 448969 irq8 450890 dispatch 451046 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 451581 irq4 453511 dispatch 453669 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 454199 irq8 456133 dispatch 456290 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 456802 irq4 458754 dispatch 458911 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 459422 irq8 461375 dispatch 461533 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 462058 irq4 463997 dispatch 464155 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 464667 irq8 466618 dispatch 466776 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 467307 irq4 469240 dispatch 469397 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 469947 irq8 471861 dispatch 472019 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 472531 irq4 474483 dispatch 474640 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+5 3 1 9 475162 irq8 477104 dispatch 477262 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 477793 irq4 479725 dispatch 479884 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 480397 irq8 482347 dispatch 482505 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 483026 irq4 484968 dispatch 485126 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 485647 irq8 487590 dispatch 487748 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 488279 irq4 490211 dispatch 490370 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 490901 irq8 492833 dispatch 492989 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 493504 irq4 495454 dispatch 495612 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 496124 irq8 498076 dispatch 498233 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 498752 irq4 500697 dispatch 500855 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 501390 irq8 503318 dispatch 503477 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 503990 irq4 505940 dispatch 506098 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 506624 irq8 508561 dispatch 508719 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 509237 irq4 511183 dispatch 511342 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 511875 irq8 513804 dispatch 513962 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 514480 irq4 516426 dispatch 516584 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 517110 irq8 519047 dispatch 519206 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 519723 irq4 521669 dispatch 521827 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 522340 irq8 524290 dispatch 524447 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 524983 irq4 526911 dispatch 527070 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 527592 irq8 529533 dispatch 529692 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 530204 irq4 532154 dispatch 532313 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 532867 irq8 534776 dispatch 534934 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 535446 irq4 537397 dispatch 537556 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 538070 irq8 540019 dispatch 540178 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 540699 irq4 542640 dispatch 542799 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 543330 irq8 545262 dispatch 545421 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 545933 irq4 547883 dispatch 548041 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 548582 irq8 550504 dispatch 550663 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 551176 irq4 553126 dispatch 553284 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 553814 irq8 555747 dispatch 555907 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 556424 irq4 558369 dispatch 558527 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 559041 irq8 560990 dispatch 561149 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 561681 irq4 563612 dispatch 563770 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 564300 irq8 566233 dispatch 566392 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 566914 irq4 568854 dispatch 569013 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+>>>>>>
+5 3 1 9 569531 irq8 571476 dispatch 571635 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 572168 irq4 574097 dispatch 574255 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 574782 irq8 576719 dispatch 576877 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 577395 irq4 579340 dispatch 579499 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 580021 irq8 581962 dispatch 582121 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 582633 irq4 584583 dispatch 584742 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 585259 irq8 587205 dispatch 587364 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+2 6 3 6 587876 irq4 589826 dispatch 589984 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+>>>>>>
+1 5 3 5 590505 irq8 592447 dispatch 592606 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 593139 irq4 595069 dispatch 595228 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 595769 irq8 597690 dispatch 597850 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 598373 irq4 600312 dispatch 600471 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 600984 irq8 602933 dispatch 603093 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 603606 irq4 605555 dispatch 605714 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 606232 irq8 608176 dispatch 608335 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 608847 irq4 610798 dispatch 610957 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 611490 irq8 613419 dispatch 613579 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 614116 irq4 616040 dispatch 616198 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 616740 irq8 618662 dispatch 618821 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 619352 irq4 621283 dispatch 621442 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 621955 irq8 623905 dispatch 624064 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 624577 irq4 626526 dispatch 626686 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 627213 irq8 629148 dispatch 629307 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 629828 irq4 631769 dispatch 631929 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 632457 irq8 634390 dispatch 634551 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 635085 irq4 637012 dispatch 637171 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 637704 irq8 639633 dispatch 639794 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 640308 irq4 642255 dispatch 642415 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 642948 irq8 644876 dispatch 645036 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 645559 irq4 647498 dispatch 647658 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 648171 irq8 650119 dispatch 650280 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 650803 irq4 652741 dispatch 652902 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 653430 irq8 655362 dispatch 655521 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 656035 irq4 657983 dispatch 658144 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 658677 irq8 660605 dispatch 660765 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+5 3 1 9 661285 irq4 663226 dispatch 663387 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 663903 irq8 665848 dispatch 666008 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 666549 irq4 668469 dispatch 668630 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 669150 irq8 671091 dispatch 671252 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 671786 irq4 673712 dispatch 673873 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 674397 irq8 676333 dispatch 676494 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 677009 irq4 678955 dispatch 679116 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 679650 irq8 681576 dispatch 681738 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 682252 irq4 684198 dispatch 684359 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 684888 irq8 686819 dispatch 686981 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 687496 irq4 689441 dispatch 689601 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 690143 irq8 692062 dispatch 692223 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 692739 irq4 694684 dispatch 694845 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 695372 irq8 697305 dispatch 697466 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 697991 irq4 699926 dispatch 700088 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 700622 irq8 702548 dispatch 702710 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 703226 irq4 705169 dispatch 705330 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 705859 irq8 707791 dispatch 707953 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 708483 irq4 710412 dispatch 710573 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+5 3 1 9 711106 irq8 713034 dispatch 713195 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 713730 irq4 715655 dispatch 715817 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 716334 irq8 718277 dispatch 718438 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 718964 irq4 720898 dispatch 721058 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 721590 irq8 723519 dispatch 723681 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 724200 irq4 726141 dispatch 726303 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 726843 irq8 728762 dispatch 728924 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 729445 irq4 731384 dispatch 731545 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 732061 irq8 734005 dispatch 734167 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 734689 irq4 736627 dispatch 736789 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 737333 irq8 739248 dispatch 739409 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+4 3 2 8 739924 irq4 741870 dispatch 742032 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 742562 irq8 744491 dispatch 744652 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 745177 irq4 747112 dispatch 747275 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 747791 irq8 749734 dispatch 749896 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 750417 irq4 752355 dispatch 752517 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 753053 irq8 754977 dispatch 755139 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 755655 irq4 757598 dispatch 757761 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 758290 irq8 760220 dispatch 760382 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 760913 irq4 762841 dispatch 763003 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 763548 irq8 765462 dispatch 765625 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 766141 irq4 768084 dispatch 768244 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 768763 irq8 770705 dispatch 770867 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 771382 irq4 773327 dispatch 773488 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 774004 irq8 775948 dispatch 776110 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+2 6 3 6 776654 irq4 778570 dispatch 778731 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 2
+
+>>>>>>
+3 3 2 7 779251 irq8 781191 dispatch 781353 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 781889 irq4 783813 dispatch 783975 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 784511 irq8 786434 dispatch 786595 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 787109 irq4 789055 dispatch 789217 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 789736 irq8 791677 dispatch 791840 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 792363 irq4 794298 dispatch 794460 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 794985 irq8 796920 dispatch 797081 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 797602 irq4 799541 dispatch 799703 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 800248 irq8 802163 dispatch 802324 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 802849 irq4 804784 dispatch 804945 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+5 3 1 9 805479 irq8 807405 dispatch 807567 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 808106 irq4 810027 dispatch 810189 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 810711 irq8 812648 dispatch 812811 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 813328 irq4 815270 dispatch 815433 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 815969 irq8 817891 dispatch 818055 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 818591 irq4 820513 dispatch 820675 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 821195 irq8 823134 dispatch 823298 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 823814 irq4 825756 dispatch 825918 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 826455 irq8 828377 dispatch 828541 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 829073 irq4 830998 dispatch 831162 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 831704 irq8 833620 dispatch 833782 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 834300 irq4 836241 dispatch 836404 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 836935 irq8 838863 dispatch 839027 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 839545 irq4 841484 dispatch 841647 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 842174 irq8 844106 dispatch 844269 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 844787 irq4 846727 dispatch 846890 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 847436 irq8 849349 dispatch 849512 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 850030 irq4 851970 dispatch 852133 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 852655 irq8 854591 dispatch 854755 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 855301 irq4 857213 dispatch 857377 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 857906 irq8 859834 dispatch 859999 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 860518 irq4 862456 dispatch 862619 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 863151 irq8 865077 dispatch 865241 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 865760 irq4 867699 dispatch 867863 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 868404 irq8 870320 dispatch 870485 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 871002 irq4 872942 dispatch 873106 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 873652 irq8 875563 dispatch 875727 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 876246 irq4 878184 dispatch 878348 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 878886 irq8 880806 dispatch 880969 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+4 3 2 8 881490 irq4 883427 dispatch 883591 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 884109 irq8 886049 dispatch 886212 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 886744 irq4 888670 dispatch 888834 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 889370 irq8 891292 dispatch 891456 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 891983 irq4 893913 dispatch 894078 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 894606 irq8 896534 dispatch 896698 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+5 3 1 9 897221 irq4 899156 dispatch 899320 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 899838 irq8 901777 dispatch 901941 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 902482 irq4 904399 dispatch 904563 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 905081 irq8 907020 dispatch 907185 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 907723 irq4 909642 dispatch 909805 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 910352 irq8 912263 dispatch 912427 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 912945 irq4 914885 dispatch 915049 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 915568 irq8 917506 dispatch 917670 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 918192 irq4 920127 dispatch 920292 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 920819 irq8 922749 dispatch 922913 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+>>>>>>
+2 6 3 6 923430 irq4 925370 dispatch 925535 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 926076 irq8 927992 dispatch 928157 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 928689 irq4 930613 dispatch 930777 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 931305 irq8 933235 dispatch 933399 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 933923 irq4 935856 dispatch 936020 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 936537 irq8 938477 dispatch 938642 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 939171 irq4 941099 dispatch 941264 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 941801 irq8 943720 dispatch 943885 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 944404 irq4 946342 dispatch 946506 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 947054 irq8 948963 dispatch 949128 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 949660 irq4 951585 dispatch 951749 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 952282 irq8 954206 dispatch 954371 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 954897 irq4 956828 dispatch 956992 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 957520 irq8 959449 dispatch 959614 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 960138 irq4 962070 dispatch 962235 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 962754 irq8 964692 dispatch 964856 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 965393 irq4 967313 dispatch 967477 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 968001 irq8 969935 dispatch 970099 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 970624 irq4 972556 dispatch 972721 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 973260 irq8 975178 dispatch 975342 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 975866 irq4 977799 dispatch 977964 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 978482 irq8 980421 dispatch 980585 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 981114 irq4 983042 dispatch 983204 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 983735 irq8 985663 dispatch 985827 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 986349 irq4 988285 dispatch 988448 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 988980 irq8 990906 dispatch 991071 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 991590 irq4 993528 dispatch 993692 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 994228 irq8 996149 dispatch 996314 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 996847 irq4 998771 dispatch 998935 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 999463 irq8 1001392 dispatch 1001560 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1002092 irq4 1004013 dispatch 1004181 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1004712 irq8 1006635 dispatch 1006803 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1007325 irq4 1009256 dispatch 1009424 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 1009947 irq8 1011878 dispatch 1012046 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+4 3 2 8 1012582 irq4 1014499 dispatch 1014667 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1015209 irq8 1017121 dispatch 1017289 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1017812 irq4 1019742 dispatch 1019911 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1020468 irq8 1022364 dispatch 1022533 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1023056 irq4 1024985 dispatch 1025152 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1025678 irq8 1027606 dispatch 1027774 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1028298 irq4 1030228 dispatch 1030396 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1030930 irq8 1032849 dispatch 1033018 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 1033545 irq4 1035471 dispatch 1035640 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1036204 irq8 1038092 dispatch 1038261 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+5 3 1 9 1038798 irq4 1040714 dispatch 1040882 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1041404 irq8 1043335 dispatch 1043504 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 1044051 irq4 1045957 dispatch 1046125 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1046649 irq8 1048578 dispatch 1048745 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1049272 irq4 1051199 dispatch 1051368 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 1051912 irq8 1053821 dispatch 1053989 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 1054517 irq4 1056442 dispatch 1056610 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1057164 irq8 1059064 dispatch 1059232 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1059753 irq4 1061685 dispatch 1061854 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1062381 irq8 1064307 dispatch 1064476 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 1065004 irq4 1066928 dispatch 1067096 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1067647 irq8 1069549 dispatch 1069718 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 1070245 irq4 1072171 dispatch 1072339 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 1072862 irq8 1074792 dispatch 1074962 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1075499 irq4 1077414 dispatch 1077582 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1078124 irq8 1080035 dispatch 1080204 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1080727 irq4 1082657 dispatch 1082825 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1083361 irq8 1085278 dispatch 1085448 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1085968 irq4 1087900 dispatch 1088069 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 1088591 irq8 1090521 dispatch 1090690 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 1091235 irq4 1093142 dispatch 1093311 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1093848 irq8 1095764 dispatch 1095932 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1096456 irq4 1098385 dispatch 1098554 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1099095 irq8 1101007 dispatch 1101177 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1101712 irq4 1103628 dispatch 1103799 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1104333 irq8 1106250 dispatch 1106419 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1106948 irq4 1108871 dispatch 1109041 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 1109565 irq8 1111493 dispatch 1111664 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1112208 irq4 1114114 dispatch 1114283 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1114826 irq8 1116735 dispatch 1116906 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+4 3 2 8 1117443 irq4 1119357 dispatch 1119528 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1120067 irq8 1121978 dispatch 1122149 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1122677 irq4 1124600 dispatch 1124770 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 1125294 irq8 1127221 dispatch 1127391 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 1127925 irq4 1129843 dispatch 1130012 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1130560 irq8 1132464 dispatch 1132634 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 1133172 irq4 1135086 dispatch 1135256 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+5 3 1 9 1135785 irq8 1137707 dispatch 1137877 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 1138422 irq4 1140328 dispatch 1140498 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1141037 irq8 1142950 dispatch 1143121 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1143655 irq4 1145571 dispatch 1145743 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 1146278 irq8 1148193 dispatch 1148362 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1148905 irq4 1150814 dispatch 1150985 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1151508 irq8 1153436 dispatch 1153606 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1154129 irq4 1156057 dispatch 1156227 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 1156764 irq8 1158678 dispatch 1158849 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+>>>>>>
+2 6 3 6 1159373 irq4 1161300 dispatch 1161470 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1162023 irq8 1163921 dispatch 1164092 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 1164621 irq4 1166543 dispatch 1166713 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1167253 irq8 1169164 dispatch 1169334 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1169864 irq4 1171786 dispatch 1171956 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 1172481 irq8 1174407 dispatch 1174577 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 1175102 irq4 1177029 dispatch 1177200 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1177744 irq8 1179650 dispatch 1179819 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1180344 irq4 1182271 dispatch 1182442 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 1183013 irq8 1184893 dispatch 1185063 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+2 6 3 6 1185611 irq4 1187514 dispatch 1187686 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1188210 irq8 1190136 dispatch 1190307 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1190836 irq4 1192757 dispatch 1192928 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1193462 irq8 1195379 dispatch 1195550 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1196084 irq4 1198000 dispatch 1198171 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 1198707 irq8 1200621 dispatch 1200792 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+4 3 2 8 1201317 irq4 1203243 dispatch 1203412 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1203969 irq8 1205864 dispatch 1206035 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1206565 irq4 1208486 dispatch 1208655 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1209194 irq8 1211107 dispatch 1211279 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1211803 irq4 1213729 dispatch 1213899 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1214437 irq8 1216350 dispatch 1216521 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 1217048 irq4 1218972 dispatch 1219142 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1219668 irq8 1221593 dispatch 1221765 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1222313 irq4 1224214 dispatch 1224385 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1224933 irq8 1226836 dispatch 1227007 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1227533 irq4 1229457 dispatch 1229626 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+5 3 1 9 1230155 irq8 1232079 dispatch 1232249 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1232791 irq4 1234700 dispatch 1234870 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1235405 irq8 1237322 dispatch 1237492 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1238017 irq4 1239943 dispatch 1240114 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1240657 irq8 1242565 dispatch 1242735 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 1243265 irq4 1245186 dispatch 1245355 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1245898 irq8 1247807 dispatch 1247979 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1248509 irq4 1250429 dispatch 1250599 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1251123 irq8 1253050 dispatch 1253221 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 1253746 irq4 1255672 dispatch 1255843 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1256386 irq8 1258293 dispatch 1258464 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1258998 irq4 1260915 dispatch 1261085 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 1261620 irq8 1263536 dispatch 1263707 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+4 3 2 8 1264243 irq4 1266157 dispatch 1266329 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1266872 irq8 1268779 dispatch 1268950 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1269476 irq4 1271400 dispatch 1271571 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1272111 irq8 1274022 dispatch 1274193 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1274728 irq4 1276643 dispatch 1276815 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+5 3 1 9 1277359 irq8 1279265 dispatch 1279436 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1279991 irq4 1281886 dispatch 1282057 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1282585 irq8 1284508 dispatch 1284678 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1285205 irq4 1287129 dispatch 1287300 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 1287848 irq8 1289750 dispatch 1289922 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 1290447 irq4 1292372 dispatch 1292543 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1293074 irq8 1294993 dispatch 1295165 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1295710 irq4 1297615 dispatch 1297786 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1298316 irq8 1300236 dispatch 1300408 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 1300944 irq4 1302858 dispatch 1303029 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 1303584 irq8 1305479 dispatch 1305652 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+4 3 2 8 1306178 irq4 1308101 dispatch 1308273 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1308813 irq8 1310722 dispatch 1310892 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1311418 irq4 1313343 dispatch 1313515 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1314059 irq8 1315965 dispatch 1316137 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1316662 irq4 1318586 dispatch 1318758 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1319297 irq8 1321208 dispatch 1321379 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 1321905 irq4 1323829 dispatch 1324001 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+>>>>>>
+1 5 3 5 1324528 irq8 1326451 dispatch 1326623 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 1327173 irq4 1329072 dispatch 1329244 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1329784 irq8 1331693 dispatch 1331865 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1332395 irq4 1334315 dispatch 1334487 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1335017 irq8 1336936 dispatch 1337109 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1337636 irq4 1339558 dispatch 1339730 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 1340261 irq8 1342179 dispatch 1342352 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+2 6 3 6 1342879 irq4 1344801 dispatch 1344971 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+>>>>>>
+1 5 3 5 1345524 irq8 1347422 dispatch 1347595 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+>>>>>>
+3 3 2 7 1348131 irq4 1350044 dispatch 1350216 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1350762 irq8 1352665 dispatch 1352837 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1353363 irq4 1355286 dispatch 1355459 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1355990 irq8 1357908 dispatch 1358080 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1358606 irq4 1360529 dispatch 1360701 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1361239 irq8 1363151 dispatch 1363324 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 1363851 irq4 1365772 dispatch 1365944 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 1366495 irq8 1368394 dispatch 1368566 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 1369111 irq4 1371015 dispatch 1371188 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1371735 irq8 1373637 dispatch 1373809 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1374350 irq4 1376258 dispatch 1376429 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1376963 irq8 1378879 dispatch 1379053 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1379584 irq4 1381501 dispatch 1381674 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 1382215 irq8 1384122 dispatch 1384295 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1384821 irq4 1386744 dispatch 1386916 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1387462 irq8 1389365 dispatch 1389538 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1390066 irq4 1391987 dispatch 1392161 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1392712 irq8 1394608 dispatch 1394781 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1395308 irq4 1397229 dispatch 1397402 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1397952 irq8 1399851 dispatch 1400024 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1400550 irq4 1402472 dispatch 1402645 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+3 3 2 7 1403177 irq8 1405094 dispatch 1405267 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1405818 irq4 1407715 dispatch 1407889 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 1408418 irq8 1410337 dispatch 1410509 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+4 3 2 8 1411041 irq4 1412958 dispatch 1413132 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1413690 irq8 1415580 dispatch 1415753 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1416280 irq4 1418201 dispatch 1418374 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 1418915 irq8 1420822 dispatch 1420995 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+3 3 2 7 1421536 irq4 1423444 dispatch 1423616 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1424157 irq8 1426065 dispatch 1426238 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1426777 irq4 1428687 dispatch 1428860 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1429397 irq8 1431308 dispatch 1431482 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+4 3 2 8 1432015 irq4 1433930 dispatch 1434101 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1434646 irq8 1436551 dispatch 1436724 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1437261 irq4 1439173 dispatch 1439346 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+3 3 2 7 1439879 irq8 1441794 dispatch 1441965 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1442520 irq4 1444415 dispatch 1444588 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1445132 irq8 1447037 dispatch 1447210 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+4 3 2 8 1447740 irq4 1449658 dispatch 1449830 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+4 3 2 8 1450356 irq8 1452280 dispatch 1452453 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1452989 irq4 1454901 dispatch 1455074 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1455615 irq8 1457523 dispatch 1457696 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1458232 irq4 1460144 dispatch 1460317 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1460867 irq8 1462765 dispatch 1462939 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1463465 irq4 1465387 dispatch 1465560 
+<<<<<
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 5
+
+>>>>>>
+5 3 1 9 1466092 irq8 1468008 dispatch 1468181 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1468727 irq4 1470630 dispatch 1470803 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+2 6 3 6 1471345 irq8 1473251 dispatch 1473425 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1473954 irq4 1475873 dispatch 1476045 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+>>>>>>
+3 3 2 7 1476595 irq8 1478494 dispatch 1478667 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1479207 irq4 1481116 dispatch 1481288 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1481815 irq8 1483737 dispatch 1483910 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+>>>>>>
+2 6 3 6 1484442 irq4 1486358 dispatch 1486531 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+>>>>>>
+2 6 3 6 1487058 irq8 1488980 dispatch 1489152 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 3
+
+>>>>>>
+2 6 3 6 1489679 irq4 1491601 dispatch 1491773 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1492324 irq8 1494223 dispatch 1494397 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1494926 irq4 1496844 dispatch 1497017 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1497558 irq8 1499466 dispatch 1499639 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1500166 irq4 1502087 dispatch 1502260 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+1 5 3 5 1502792 irq8 1504709 dispatch 1504882 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+1 5 3 5 1505410 irq4 1507330 dispatch 1507502 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1508059 irq8 1509951 dispatch 1510126 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 6 deadline: 6 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1510668 irq4 1512573 dispatch 1512746 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 1513275 irq8 1515194 dispatch 1515369 
+<<<<<
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+4 3 2 8 1515921 irq4 1517816 dispatch 1517989 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1518531 irq8 1520437 dispatch 1520611 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1521144 irq4 1523059 dispatch 1523233 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+1 5 3 5 1523777 irq8 1525680 dispatch 1525854 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1526385 irq4 1528302 dispatch 1528476 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 4
+
+>>>>>>
+3 3 2 7 1529003 irq8 1530923 dispatch 1531097 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 3
+
+period: 3 deadline: 9 deadline_rem: 3
+
+>>>>>>
+1 5 3 5 1531634 irq4 1533544 dispatch 1533718 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 2
+
+period: 3 deadline: 9 deadline_rem: 2
+
+period: 3 deadline: 7 deadline_rem: 7
+
+>>>>>>
+2 6 3 6 1534261 irq8 1536166 dispatch 1536337 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 1
+
+period: 3 deadline: 9 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1536874 irq4 1538787 dispatch 1538960 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 6 deadline: 6 deadline_rem: 6
+
+period: 3 deadline: 7 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 8
+
+period: 3 deadline: 9 deadline_rem: 9
+
+>>>>>>
+1 5 3 5 1539516 irq8 1541409 dispatch 1541581 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 3
+
+period: 6 deadline: 6 deadline_rem: 5
+
+period: 3 deadline: 7 deadline_rem: 4
+
+period: 3 deadline: 8 deadline_rem: 7
+
+period: 3 deadline: 9 deadline_rem: 8
+
+>>>>>>
+1 5 3 5 1542108 irq4 1544030 dispatch 1544203 
+<<<<<
+period: 5 deadline: 5 deadline_rem: 2
+
+period: 6 deadline: 6 deadline_rem: 4
+
+period: 3 deadline: 7 deadline_rem: 3
+
+period: 3 deadline: 8 deadline_rem: 6
+
+period: 3 deadline: 9 deadline_rem: 7
+
+>>>>>>
+1 5 3 5 1544729 irq8 1546652 dispatch 1546825 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 3
+
+period: 3 deadline: 7 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 1
+
+period: 3 deadline: 8 deadline_rem: 5
+
+period: 3 deadline: 9 deadline_rem: 6
+
+>>>>>>
+2 6 3 6 1547361 irq4 1549273 dispatch 1549446 
+<<<<<
+period: 3 deadline: 7 deadline_rem: 1
+
+period: 6 deadline: 6 deadline_rem: 2
+
+period: 5 deadline: 5 deadline_rem: 5
+
+period: 3 deadline: 8 deadline_rem: 4
+
+period: 3 deadline: 9 deadline_rem: 5
+
+>>>>>>
+3 3 2 7 1549978 irq8 1551894 dispatch 1552068 
+<<<<<
+period: 6 deadline: 6 deadline_rem: 1
+
+period: 5 deadline: 5 deadline_rem: 4
+
+period: 3 deadline: 8 
