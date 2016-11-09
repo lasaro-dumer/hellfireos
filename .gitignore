@@ -1,1 +1,11 @@
 doc/html/
+usr/sim/mpsoc_sim/objects/*.bin
+usr/sim/mpsoc_sim/reports/logout*.txt
+usr/sim/mpsoc_sim/reports/report*.txt
+usr/sim/mpsoc_sim/reports/stdout*.txt
+usr/sim/mpsoc_sim/reports/mpsoc.txt
+usr/docs/doxygen
+platform/single_core/*.o
+platform/single_core/image.*
+platform/noc_3x2/code*
+platform/noc_3x2/*.o
